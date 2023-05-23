@@ -1,0 +1,108 @@
+body {
+  background-color: rgb(240, 228, 168);
+}
+h1 {
+  font-size: 55px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-shadow: 5px 5px 5px rgb(236, 164, 164);
+  text-decoration: underline;
+  font-family: Copperplate, Papyrus;
+  text-align: center;
+}
+
+h2 {
+  font-family: Copperplate, Papyrus;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+.kontakt {
+  border: 4px dashed black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: larger;
+  color: black;
+  background-color: indianred;
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  text-align: center;
+  border-radius: 24px;
+  padding: 5px;
+}
+
+.kontakt:hover {
+  background-color: antiquewhite;
+  color: blueviolet;
+  font-size: 35px;
+  width: 400px;
+}
+
+.kontakt:active {
+  color: pink;
+}
+
+img {
+  height: 510px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px rgb(236, 164, 164);
+  display: block;
+  margin: 0 auto;
+}
+
+.shrnuti {
+  width: 700px;
+  text-align: justify;
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+table,
+th,
+td {
+  border: 2px solid white;
+}
+
+table {
+  width: 70%;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.zahlavitabulky {
+  background-color: rgb(177, 139, 213);
+}
+
+.expy {
+  text-align: center;
+  font-size: small;
+  display: inline-flex;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.skills {
+  border: 5px solid white;
+  border-radius: 15px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: Copperplate, Papyrus;
+  display: block;
+  width: 280px;
+  margin: 0 auto;
+}
+
+.lichy {
+  background-color: antiquewhite;
+}
+
+.omne {
+  font-size: larger;
+}
